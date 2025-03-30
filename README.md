@@ -19,20 +19,20 @@ This project builds a hybrid recommendation engine that combines:
 - Processed file: df_balanced_recipe.csv
 
 ## How to Run the Project Locally
-1. Clone the repository
-   git clone https://github.com/your-username/healthy_eating_recommendation.git
+1. Clone the repository <br>
+   git clone https://github.com/your-username/healthy_eating_recommendation.git <br>
    cd healthy_eating_recommendation
 
-2. Install dependencies
+2. Install dependencies <br>
    pip install -r requirements.txt
 
-3. Run the backend (Flask)
-   cd backend
+3. Run the backend (Flask) <br>
+   cd backend <br>
    python app.py
 
-4. Run the frontend (Streamlit)
-   *In a separate terminal*
-   cd frontend
+4. Run the frontend (Streamlit) <br>
+   *In a separate terminal* <br>
+   cd frontend <br>
    streamlit run streamlit_app.py
 
 # License
