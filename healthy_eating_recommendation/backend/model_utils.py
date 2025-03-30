@@ -5,7 +5,7 @@ from tensorflow.keras.models import load_model
 from sklearn.metrics.pairwise import cosine_similarity
 
 # Load dataset and preprocessed data
-df = pd.read_csv(r"G:\UOL BSc Comp Sci\Y3S2\CM3070 FYP\CM3070 MLNN Project\healthy_eating_recommendation\df_balanced_recipe.csv", low_memory=False)
+df = pd.read_csv("../healthy_eating_recommendation/df_balanced_recipe.csv", low_memory=False) # Change to your respective dirtectory
 numerical_cols = ["rating", "calories", "protein", "fat", "sodium"]
 X = df[numerical_cols].fillna(df[numerical_cols].mean())
 
